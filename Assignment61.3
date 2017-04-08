@@ -1,0 +1,18 @@
+package acadgild2;
+import java.util.Scanner;
+
+public class Assign63 {
+
+	public static void main(String[] args) {
+		 String[] monthName = {"January", "February", "March", "April", "May", "June", 
+				 "July", "August", "September", "October", "November", "December"};
+		 int[] days = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+		 Scanner sc=new Scanner(System.in);
+		 System.out.println("Enter the month number ");
+		 int n = sc.nextInt();
+		 n=n-1;
+		 System.out.println(" "+monthName[n] + " has" +days[n]+" days");
+		 sc.close();
+		 }
+	}
+
